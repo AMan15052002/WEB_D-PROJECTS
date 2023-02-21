@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+           /* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height:94px;
+    padding: 31px 83px;
+}
+
+.grow-list{
+    flex-grow: 1;
+}
+
+img{
+    width:92px;
+    height: 32px;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+
+.list{
+    display:flex;
+    align-items: center;
+    gap:65px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color:#fff;
+    margin-left: 64px;
+    line-height: 100px;
+
+}
+
+
+.list-item{
+    cursor:pointer;
+}
+
+.small-button{
+    background: #ba0cc5;
+    border:none;
+    border-radius:6px;
+    padding: 7px 28px;
+    color:#fff;
+    font-weight: 600;
+    cursor:pointer;
+    line-height: 25px;
+    font-family: "Poppins";
+}
+
+/* HERO SECTION */
+.hero{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height:90vh;
+    text-align: center;
+    /* background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center; */
+}
+
+.heading{
+    /* max-width: 846px;
+    margin: 0%;
+    font-style: normal;
+    font-weight: 700;
+    line-height:97px;
+    font-size: 80px;
+    color:#fff;
+    padding-top: 170px;
+    text-align: center; */
+
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+
+}
+
+.paragraph{
+font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.button-large{
+    background: #ba0cc5;
+    cursor:pointer;
+    color:#fff;
+    border:none;
+    border-radius: 11.230px;
+    font-size:29px;
+    line-height: 45px;
+    padding: 14px 22px;
+    margin-top: 64px;
+    font-family: "Poppins";
+    font-style:normal;
+    font-weight: 600;
+}
